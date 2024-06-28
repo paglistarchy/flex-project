@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(fonts/Roboto-LightItalic.ttf)
+}
+
+.header, .introduction {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 410px;
+    padding-right: 340px;
+    border: 0;
+}
+
+h1, h2, h6, .awesome, p, .sign-up-now, li, .sign-up, .caption {
+    font-family: 'Roboto';
+}
+
+h1, h2, h6, .awesome, .sign-up-now {
+    color: #F9FAF8;
+}
+
+h1, h6 {
+    font-size: 24px;
+    margin-right: -30px;
+}
+
+h2, .awesome {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.awesome {
+    margin-top: -30px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 80px;
+}
+
+.image-with-subtext {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.body {
+    display: flex;
+    flex-direction: horizontal;
+    margin: 0;
+    padding: 0;
+}
+
+.top-image {
+    width: 120%;
+    height: auto;
+}
+
+.html {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+}
+
+ul, p, .caption, .sign-up {
+    color: #afafaf;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 10px;
+    margin-right: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.information {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caption {
+    width: 200px;
+    text-align: center;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+h4 {
+    font-size: 36px;
+    font-family: 'Roboto-LightItalic';
+    text-align: left;
+    color: #1F2937;
+    text-wrap: wrap;
+    width: 1000px;
+    padding-left: 400px;
+}
+
+.Content {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+h5 {
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 400px;
+}
+
+.Call-To-Action {
+    background-color: #3882F6;
+    display: flex;
+    width: 900px;
+    height: 100px;
+    gap: 100px;
+    padding-bottom: 60px;
+    padding-left: 0;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+button {
+    width: 110px;
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    border-color: rgb(255, 8, 8);
+    border-radius: 10px;
+    border: solid 3px;
+    margin-top: 60px;
+}
+
+.sign-up-now {
+    margin-top: -50px;
+}
+
+.Footer {
+    background-color: #1F2937;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 20px;
+}
+
+.border-portion {
+    background-color: white;
+    padding: 50px;
+    border: solid 50px;
+    border-color: white;
+    justify-content: center;
+    height: 160px;
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
